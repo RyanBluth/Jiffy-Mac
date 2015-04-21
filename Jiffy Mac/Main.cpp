@@ -7,7 +7,7 @@ int main( int argc, const char * argv[] ){
 	declare array_of(std::string *) things
 	also do_many_(20)
 		when _it_ less_than 10 then_
-		things.push_back(new std::string(std::to_string(_it_)))
+			things.push_back(new std::string(std::to_string(_it_)))
 		_end
 		otherwise
 			things.push_back(nullptr)
