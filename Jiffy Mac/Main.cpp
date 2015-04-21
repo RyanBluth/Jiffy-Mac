@@ -21,7 +21,7 @@ int main( int argc, const char * argv[] ){
 			also println("done")
 			also set i to 10
 			also for_each(c, things)
-				also let f be nullptr
+				let f be nullptr
 				also let x be nc_p(c, new std::string("C is Null Pointer")) 
 				also println(*x)
 			_end
